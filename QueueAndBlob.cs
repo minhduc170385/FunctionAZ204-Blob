@@ -15,7 +15,7 @@ namespace FunctionAZ204_Blob
         {
             log.LogInformation($" Blob Trigger file name: {myBlob}");
             StreamReader reader = new StreamReader(myBlob);
-
+            //Con ga con
             log.LogInformation($"C# Queue trigger function processed: {myQueueItem} /n {reader.ReadToEnd()}");
         }
     }
